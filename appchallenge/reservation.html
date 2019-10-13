@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Reservation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<!-- Ted Pysh
+	index.html
+	info2439
+	Thoendel
+	9/8/19 
+	-->
+
+
+</head>
+<body>
+<div data-role="page">
+<div data-role="header">
+	<h1>Make A Reservation</h1>
+	<img src="Sage-Bistro-Logo-2017-transparenent-small.png" id="logo">
+</div>
+	<div data-role="header">
+	<a href="index.html" class="ui-btn-right"> Home</a>
+	<a href="survey.html" class="ui-btn"> Take The Survey</a>
+	<a href="maps.html" class="ui-btn"> Find Us</a>
+	<a href="menu.html" class="ui-btn"> Check The Menu</a>
+	</div>
+<div role="main" class="ui-content">
+<form action="reservation.php" method="post">
+<h2>MCC Sage Bistro is open:</h2>
+	<ul>
+		<li>Monday Through Thursday</li>
+		<li>11 AM to 1 PM for Lunch</li>
+		<li>6 PM to 8 PM for Dinner</li>
+	</ul>
+<h1>Reservation Info:</h1>
+	<div class="ui-field-contain">
+	<fieldset data-role="controlgroup">
+			<div class="ui-field-contain">
+			<legend>Name:</legend>
+			<input type="text" name="bname" id="bname" value="" />
+		</div>
+	<select name="month" id="month">
+		<option value="January">January</option>
+		<option value="February">February</option>
+		<option value="March">March</option>
+		<option value="April">April</option>
+		<option value="May">May</option>
+		<option value="June">June</option>
+		<option value="July">July</option>
+		<option value="August">August</option>
+		<option value="September">September</option>
+		<option value="October">October</option>
+		<option value="November">November</option>
+		<option value="December">December</option>
+	</select>
+	</fieldset>
+	<fieldset data-role="controlgroup" data-type="horizontal">
+	<legend for="dayfirstdigit"> Day: </legend>
+	<select name="dayfirstdigit" id="dayfirstdigit">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
+	<select name="dayseconddigit" id="dayseconddigit">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+	</select>
+	<legend for="time">Time: </legend>
+	<select name="time" id="time">
+		<option value="Lunch">Lunch</option>
+		<option value="Afternoon">Afternoon</option>
+		<option value="Evening">Evening</option>
+	</fieldset>
+	</div>
+	<input type="submit" name="submit" value="Make Your Reservation">	
+	</form>
+	</div>
+
+	<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="a">
+	<p> &copy; Omaha MCC</p>
+	<a href="mailto: tpysh1@mail.mccneb.edu">Get in contact</a>
+	<a href="https://www.facebook.com/pg/sagestudentbistro/community/?mt_nav=0&msite_tab_async=0">Find us on Facebook</a>
+	</div>
+</div>
+
+</body>
+
+</html>

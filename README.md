@@ -11,3 +11,7 @@ utilized with little confusion, and that was also pleasant
 on the eyes. I wanted to create the four required pages to
 the best of my ability along with a home page to act as a hub between
 them.
+
+Link to Usability Tests:
+
+https://docs.google.com/document/d/1jkjI1zGxRpr0xxXopD6wn7U4eS34gLKtrpKMcK2ZohA/edit?usp=sharing

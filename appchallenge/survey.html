@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Survey</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="details.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<!-- Ted Pysh
+	index.html
+	info2439
+	Thoendel
+	9/8/19 
+	-->
+
+
+</head>
+<body>
+<div data-role="page">
+	<div data-role="header">
+	<h1>Take A Short Survey</h1>
+	<img src="Sage-Bistro-Logo-2017-transparenent-small.png" id="logo">
+	</div>
+	<div data-role="header">
+	<a href="index.html" class="ui-btn-right"> Home</a>
+	<a href="maps.html" class="ui-btn"> Find Us</a>
+	<a href="reservation.html" class="ui-btn"> Make a Reservation</a>
+	<a href="menu.html" class="ui-btn"> Check The Menu</a>
+	</div>
+	<div role="main" class="ui-content">
+		<p>Here we've provided a short survey for you to give feedback on your experience with us</p>
+	<form action="survey.php" method="post">
+<div class="ui-field-contain">
+		<legend> How would you rate your meal today?</legend>
+		<select name="meal_rate" id="meal_rate">
+			<option value="Excellend">Excellent</option>
+			<option value="Good">Good</option>
+			<option value="Fair">Fair</option>
+			<option value="Needs Work">Needs Work</option>
+			<option value="Poor">Poor</option>	
+		</select>
+		</div> <!--Closing meal field div -->
+		<div class="ui-field-contain">
+		<legend>How would you rate your service today?</legend>
+		<select name="service_rate" id="service_rate">
+			<option value="Excellend">Excellent</option>
+			<option value="Good">Good</option>
+			<option value="Fair">Fair</option>
+			<option value="Needs Work">Needs Work</option>
+			<option value="Poor">Poor</option>
+		</select>
+		</div> <!-- Closing service field div -->
+		<div class="ui-field-contain">
+		<legend> How would you rate your overall experience today?</legend>
+		<select name="overall_exp" id="overall_exp">
+			<option value="Excellent">Excellent</option>
+			<option value="Good">Good</option>
+			<option value="Fair">Fair</option>
+			<option value="Needs Work">Needs Work</option>	
+			<option value="Poor">Poor</option>
+		</select>
+		</div> <!-- Closing overall field div -->
+		<fieldset data-role="controlgroup" data-type="horizontal">
+			<legend>Would you reccomend this restaurant to a friend?</legend>
+			<input type="radio" name="reccoment_rest" id="yesorno1" value="Yes">
+			<label for="yesorno1" value="Yes">Yes</label>
+			<input type="radio" name="reccomend_rest" id="yesorno2" value="No">
+			<label for="yesorno2" value="No">No</label>
+		</fieldset>
+		<div class="ui-field-contain">
+			<legend>Name:</legend>
+			<input type="text" name="bname" id="bname" value="" />
+		</div>
+		<div class="ui-field-contain">
+			<legend>E-Mail:</legend>
+			<input type="text" name="email" id="email" value="" />
+		</div>
+	<input type="submit" name="submit" value="Send">
+	</form>
+			
+	
+	</div>
+	<div data-role="footer" data-position="fixed" data-id="footernav" data-theme="a">
+	<p> &copy; Omaha MCC</p>
+	<a href="mailto: tpysh1@mail.mccneb.edu">Get in contact</a>
+	<a href="https://www.facebook.com/pg/sagestudentbistro/community/?mt_nav=0&msite_tab_async=0">Find us on Facebook</a>
+	</div>
+</div>
+
+</body>
+
+</html>

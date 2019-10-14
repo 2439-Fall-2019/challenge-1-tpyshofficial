@@ -15,3 +15,7 @@ them.
 Link to Usability Tests:
 
 https://docs.google.com/document/d/1jkjI1zGxRpr0xxXopD6wn7U4eS34gLKtrpKMcK2ZohA/edit?usp=sharing
+
+Link to Updated Moqup:
+
+https://app.moqups.com/yIHFpm6QxH/view
